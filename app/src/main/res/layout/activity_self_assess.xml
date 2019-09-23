@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelfAssess"
+    android:orientation="vertical">
+
+    <com.example.myresume.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.myresume.TitleLayout>
+
+    <!--自我评价输入框-->
+    <EditText
+        android:id="@+id/editTextSelf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="输入自我评价（建议100字内）"
+        android:gravity="top"
+        android:background="@null"/>
+
+
+</LinearLayout>
